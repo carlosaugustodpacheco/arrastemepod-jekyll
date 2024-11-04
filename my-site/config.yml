@@ -1,0 +1,19 @@
+# _config.yml
+
+title: "Arraste-me para o Podcast"
+description: "O seu podcast de terror com humor duvidoso!"
+baseurl: "" # Deixe em branco para o repositório principal
+url: "https://<seu-usuario>.github.io" # URL do seu GitHub Pages
+
+# Informações do autor
+author:
+  name: "Arraste-me para o Podcast"
+  email: "seu-email@example.com"
+
+# Configurações do Jekyll
+markdown: kramdown
+theme: minima # Tema do GitHub Pages, você pode trocar por outro
+permalink: /:categories/:year/:month/:day/:title/
+plugins:
+  - jekyll-feed # Plugin para RSS feed
+  - jekyll-seo-tag # Plugin para SEO
